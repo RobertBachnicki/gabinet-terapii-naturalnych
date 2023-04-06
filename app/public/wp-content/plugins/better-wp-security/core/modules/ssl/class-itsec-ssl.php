@@ -75,7 +75,7 @@ class ITSEC_SSL {
 
 	private function redirect_to_https() {
 		$redirect = "https://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}";
-		wp_redirect( $redirect, 301, 'iThemes Security' );
+		wp_safe_redirect( $redirect, 301, 'iThemes Security' );
 		exit();
 	}
 

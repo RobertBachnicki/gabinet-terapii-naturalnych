@@ -64,3 +64,448 @@ Stack trace:
 [15-Mar-2023 18:20:02 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
 [15-Mar-2023 18:27:02 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
 [15-Mar-2023 18:33:40 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 16:38:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3059): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:39:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3059): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:39:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3059): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:40:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3059): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:41:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3059): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:45:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:51:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:51:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:52:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\preview.php(347): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Preview->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:52:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\preview.php(347): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Preview->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:55:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\preview.php(347): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Preview->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 16:55:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\preview.php(347): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Preview->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:03:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:15:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\preview.php(347): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Preview->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\preview.php(347): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Preview->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:16:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\preview.php(347): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Preview->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ElementsKit_Lite\Widgets\Init\is_plugin_active() in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php:33
+Stack trace:
+#0 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): ElementsKit_Lite\Widgets\Init\Enqueue_Scripts->elementor_js('')
+#1 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(596): do_action('elementor/front...')
+#4 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementor\includes\frontend.php(803): Elementor\Frontend->enqueue_scripts()
+#5 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(308): Elementor\Frontend->wp_footer('')
+#6 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(3065): do_action('wp_footer')
+#9 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\footer.php(33): wp_footer()
+#10 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(783): require_once('C:\\Users\\rtbcn\\...')
+#11 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template.php(718): load_template('C:\\Users\\rtbcn\\...', true, Array)
+#12 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#13 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\themes\astra\page.php(44): get_footer()
+#14 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\rtbcn\\...')
+#15 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rtbcn\\...')
+#16 C:\Users\rtbcn\Local Sites\duszaicialo\app\public\index.php(17): require('C:\\Users\\rtbcn\\...')
+#17 {main}
+  thrown in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\elementskit-lite\widgets\init\enqueue-scripts.php on line 33
+[05-Apr-2023 17:24:11 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 17:25:37 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 17:34:06 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 17:34:58 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 17:45:46 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 17:55:53 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 17:56:33 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:01:58 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:05:24 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:06:13 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:08:51 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:16:28 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:18:25 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:36:23 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 18:36:33 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 19:09:03 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 19:10:59 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 19:13:48 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 19:16:21 UTC] PHP Warning:  Attempt to read property "post_type" on null in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\src\integrations\third-party\elementor.php on line 151
+[05-Apr-2023 19:42:10 UTC] Błąd ponownego ustawienia zdarzenia harmonogramu cron dla uchwytu: forminator_send_export, kod błędu: could_not_set, komunikat błędu: Nie można zapisać listy zdarzeń cron., dane: {"schedule":"every_minute","args":[],"interval":60}
+[06-Apr-2023 17:28:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\inc\options\class-wpseo-options.php on line 565
+[06-Apr-2023 17:28:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\inc\options\class-wpseo-options.php on line 565
+[06-Apr-2023 17:28:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\inc\options\class-wpseo-options.php on line 565
+[06-Apr-2023 17:28:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\inc\options\class-wpseo-options.php on line 565
+[06-Apr-2023 17:28:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\rtbcn\Local Sites\duszaicialo\app\public\wp-content\plugins\wordpress-seo\inc\options\class-wpseo-options.php on line 565
